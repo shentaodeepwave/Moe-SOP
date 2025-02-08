@@ -1,0 +1,7 @@
+The drainage system consists of two storage tanks (CC-storage and KK-storage), each equipped with sewage pumps and stormwater pumps. The sewage pumps transfer water from the tanks to a downstream system, ultimately leading to the wastewater treatment plant.
+
+The system has two entry points “YS1757” and “YS1907”, which connect through pipelines “YS1757Cao” and “YS1793Jian” respectively to the two storage tanks. At this point, you can choose to operate the facilities to discharge the water out of the system.
+
+Water flowing out of CC converges at node “WS6253” and flows into pipeline “WS6238-WS6235”. It then moves through node “WS6251” and joins with water from node JK. Together they flow through pipeline “WS6230-WS6229” and converge at node “HS4478”. From there, the water flows through the main line and finally into the wastewater treatment node “WSC”.
+
+YS1757/YS1907 -> YS1757Cao/YS1793Jian -> CC/KK-storage -> WS6253 -> WS6238-WS6235 -> WS6251 + JK -> WS6230-WS6229 -> HS4478 -> Main line -> WSC

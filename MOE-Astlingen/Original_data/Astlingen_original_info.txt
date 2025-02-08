@@ -1,0 +1,42 @@
+The system comprises 10 subcatchments (SC01-SC10), 19 junctions (J1-J19, including CSO overflow detection ports CSO7-CSO10), 6 storage tanks (T1-T6, each with a depth of 5m), and 6 adjustable orifices (V1-V6, adjustable from 0 to 1). Junction depths are as follows: CSO10 and CSO7 at 1m, J15 and J8 at 3m, all storage tanks at 5m, and the remaining junctions at 2m.
+Subcatchment to Junction:
+SC01 -> J16
+SC02 -> J13
+SC03 -> J10
+SC04 -> J5
+SC05 -> J1
+SC06 -> J8
+SC07 -> CSO7
+SC08 -> CSO8
+SC09 -> CSO9
+SC10 -> CSO10
+Links (C and V):
+C1:J2->J3
+C10:J8->T6
+C11:J3->J15
+C12:J9->J12
+C13:J12->T3
+C14:J19->Out_to_WWTP
+C15:CSO8->J11
+C16:J11->J10
+C17:J10->J12
+C18:J13->T2
+C19:J17->J15
+C2:J6->J3
+C20:J16->J15
+C21:CSO10->J18
+C22:J18->J15
+C23:J15->T1
+C3:J14->J3
+C4:J1->T5
+C5:CSO7->J4
+C6:J4->J5
+C7:J5->T4
+C8:CSO9->J7
+C9:J7->J8
+V1:T1->J19
+V2:T2->J17
+V3:T3->J14
+V4:T4->J6
+V5:T5->J2
+V6:T6->J9
