@@ -7,8 +7,6 @@ from PIL import Image
 import torchvision.transforms as transforms
 import torch
 import numpy as np
-
-# 抽象缩略的巢湖模型
 node_list = [
     "CC-storage",
     "JK-storage",

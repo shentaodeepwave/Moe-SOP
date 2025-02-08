@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 13 11:18:02 2023
-
-@author: chongtm
-"""
-
-
 import numpy as np
 import pandas as pd
 import scipy.signal
@@ -57,7 +49,6 @@ class DQNBuffer:
         self.trajectory_start_index = self.pointer
 
     def get(self):
-        # Get all data of the buffer and normalize the advantages
         self.pointer, self.trajectory_start_index = 0, 0
         return (
             self.observation_buffer,

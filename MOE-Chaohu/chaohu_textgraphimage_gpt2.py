@@ -28,7 +28,7 @@ agent_params = {
     'num_rain': 24,
     'num_test': 6,
     'train_iterations': 1,
-    'training_step': 20,
+    'training_step': 2000,
     'gamma': 0.1,
     'epsilon': 0.1,
     'ep_min': 1e-100,
@@ -188,7 +188,7 @@ def test(model, raindata):
     sum_Depth_delta = 0
     sum_judge = 0
     num_episodes = 0
-    res = Parallel(n_jobs=30)(delayed(interact)(i, 'MOE', True, raindata) for i in range(model.params['num_test']))
+    res = Parallel(n_jobs=30)(delayed(interact)(i, 'MOE', False, raindata) for i in range(model.params['num_test']))
     
     test_history = {}
     for i in range(model.params['num_test']):
