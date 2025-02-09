@@ -3,7 +3,7 @@
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
-This repository contains the implementation code for the paper MoE-SOP: Sewer Overflow Prevention via Multimodal Mixture of Experts Large Language Model.
+This repository contains the simple implementation of segmented control code for the paper MoE-SOP: Sewer Overflow Prevention via Multimodal Mixture of Experts Large Language Model.
 
 ## 🛠️ Environment Configuration
 
