@@ -23,17 +23,15 @@ pip install -r requirements.txt
 ```
 
 ## 🤗 Model Download
-1. Install huggingface_hub：
+1. Install huggingface_hub:
 ```bash
 pip install huggingface_hub
 ```
 
-2. Download the specified model of the paper：
+2. Download the specified model of the paper:
 ```bash
 huggingface-cli download openai-community/gpt2 --local-dir ./gpt2
-huggingface-cli download openai-community/gpt2-medium --local-dir ./gpt2-medium
-huggingface-cli download Qwen/Qwen2.5-1.5B --local-dir ./Qwen2.5-1.5B
-huggingface-cli download meta-llama/Llama-2-7b --local-dir ./Llama-2-7b
+...
 ```
 ## ⚙️ Parameter Configuration
 Before running the main program, update the following path parameters:
@@ -57,5 +55,3 @@ params = {
 ## 📜 LICENSE
 This project is licensed under the [Apache License 2.0](LICENSE).
 
-
----
